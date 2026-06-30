@@ -3,3 +3,4 @@ ef parse_client_blob(raw):
     if len(raw) != 72:
         return None
     magic, cb_key = struct.unpack('<II', raw[:8])
+print("gahsgahsghjasjh")
